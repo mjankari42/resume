@@ -90,6 +90,14 @@
 //   - Manage PR reviews, bug fixes, and coordinate with college for releasing scheduling data and over \$1500 of yearly funding
 // - Ensure 99.99% uptime during peak loads of 1M daily requests during course registration through redundant servers
 
+#project(
+  name: "FastAPI Blog",
+  url: "github.com/mjankari42/fastapi-blog",
+)
+- Built a *RESTful blog* backend in Python using *FastAPI and SQLModel*, implementing full CRUD endpoints for posts with automatic interactive API documentation via Swagger UI
+- Designed database schema using SQLModel, defining typed models that serve as both *SQLAlchemy ORM tables* and *Pydantic validation schemas*, reducing boilerplate across data and API layers
+- Managed dependencies and virtual environments with *uv*, enforcing code quality and type safety with *Ruff* (linting/formatting) and *ty* (static type checking)
+
 == Extracurricular Activities
 
 #extracurriculars(
